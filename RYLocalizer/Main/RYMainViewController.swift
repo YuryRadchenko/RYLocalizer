@@ -12,12 +12,7 @@ fileprivate let kLanguageChange = "localLanguageChange"
 
 class RYMainViewController: UIViewController {
 
-    @IBOutlet weak var settingsButton: UIButton! {
-        didSet {
-            //settingsButton.accessibilityIdentifier = "Settingsp"
-        }
-    }
-    
+    @IBOutlet weak var settingsButton: UIButton!     
     fileprivate let localizer = RYLocalizer.shared
     
     override func viewDidLoad() {
