@@ -26,7 +26,7 @@ RYLocalizer.shared.setupLanguageByTitle("Deutsch»)
 ```
 Список используемых языков:
 ```Swift
-RYLocalizer.shared.languagesListTitle()
+let titlesArray = RYLocalizer.shared.languagesListTitle()
 ```
 
 # Example
