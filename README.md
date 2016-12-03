@@ -22,7 +22,7 @@ RYLocalizer.shared.languageCode = "de"
 
 Установка языка по названию:
 ```Swift
-RYLocalizer.shared.setupLanguageByTitle("Deutsch»)
+RYLocalizer.shared.setupLanguageByTitle("Deutsch")
 ```
 Список используемых языков:
 ```Swift
