@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  RYLocalizer
+
+  Created by Yury Radchenko on 25.11.16.
+  Copyright © 2016 Yury Radchenko. All rights reserved.
+*/
+
+
+"Localizer" = "Lokalisierer";
+
+"Game" = "Spiel";
+
+"Settings" = "Einstellungen";
+"Language" = "Sprache";

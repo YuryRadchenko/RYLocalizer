@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D227085A1DE7D24C00841CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22708591DE7D24C00841CB3 /* AppDelegate.swift */; };
+		D227085F1DE7D24D00841CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D227085D1DE7D24D00841CB3 /* Main.storyboard */; };
+		D22708611DE7D24D00841CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22708601DE7D24D00841CB3 /* Assets.xcassets */; };
+		D22708641DE7D24D00841CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22708621DE7D24D00841CB3 /* LaunchScreen.storyboard */; };
+		D227086F1DE7D24D00841CB3 /* RYLocalizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227086E1DE7D24D00841CB3 /* RYLocalizerTests.swift */; };
+		D227087A1DE7D24D00841CB3 /* RYLocalizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22708791DE7D24D00841CB3 /* RYLocalizerUITests.swift */; };
+		D227088A1DE7D35500841CB3 /* RYLocalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22708891DE7D35500841CB3 /* RYLocalizer.swift */; };
+		D227088E1DE7EA5700841CB3 /* RYExampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D227088D1DE7EA5700841CB3 /* RYExampleTableViewController.swift */; };
+		D22708911DE7EAB000841CB3 /* RYSettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22708901DE7EAB000841CB3 /* RYSettingsTableViewController.swift */; };
+		D22708941DE7EAF400841CB3 /* RYMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22708931DE7EAF400841CB3 /* RYMainViewController.swift */; };
+		D22708981DE7ED9600841CB3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D227089A1DE7ED9600841CB3 /* Localizable.strings */; };
+		D2EBD1501DEB95FD00C3501C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2EBD14F1DEB95FD00C3501C /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D227086B1DE7D24D00841CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D227084E1DE7D24C00841CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22708551DE7D24C00841CB3;
+			remoteInfo = RYLocalizer;
+		};
+		D22708761DE7D24D00841CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D227084E1DE7D24C00841CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D22708551DE7D24C00841CB3;
+			remoteInfo = RYLocalizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D22708561DE7D24C00841CB3 /* RYLocalizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYLocalizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22708591DE7D24C00841CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D227085E1DE7D24D00841CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22708601DE7D24D00841CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22708631DE7D24D00841CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22708651DE7D24D00841CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D227086A1DE7D24D00841CB3 /* RYLocalizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYLocalizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D227086E1DE7D24D00841CB3 /* RYLocalizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYLocalizerTests.swift; sourceTree = "<group>"; };
+		D22708701DE7D24D00841CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22708751DE7D24D00841CB3 /* RYLocalizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYLocalizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22708791DE7D24D00841CB3 /* RYLocalizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RYLocalizerUITests.swift; sourceTree = "<group>"; };
+		D227087B1DE7D24D00841CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22708891DE7D35500841CB3 /* RYLocalizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RYLocalizer.swift; path = Localizer/RYLocalizer.swift; sourceTree = "<group>"; };
+		D227088D1DE7EA5700841CB3 /* RYExampleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RYExampleTableViewController.swift; path = Example/RYExampleTableViewController.swift; sourceTree = "<group>"; };
+		D22708901DE7EAB000841CB3 /* RYSettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RYSettingsTableViewController.swift; path = Settings/RYSettingsTableViewController.swift; sourceTree = "<group>"; };
+		D22708931DE7EAF400841CB3 /* RYMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RYMainViewController.swift; path = Main/RYMainViewController.swift; sourceTree = "<group>"; };
+		D227089B1DE7EDAF00841CB3 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D227089D1DE7EDBD00841CB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D227089E1DE7EDDC00841CB3 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D227089F1DE7EDE800841CB3 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D22708A11DE7FDDE00841CB3 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D268429B1DF2C56B00BF0293 /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMock.framework; path = Carthage/Build/iOS/OCMock.framework; sourceTree = "<group>"; };
+		D268429E1DF2CA4700BF0293 /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = Carthage/Build/iOS/OCHamcrest.framework; sourceTree = "<group>"; };
+		D26842A01DF2CA4D00BF0293 /* OCMockito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCMockito.framework; path = Carthage/Build/iOS/OCMockito.framework; sourceTree = "<group>"; };
+		D2EBD14F1DEB95FD00C3501C /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22708531DE7D24C00841CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708671DE7D24D00841CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708721DE7D24D00841CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D227084D1DE7D24C00841CB3 = {
+			isa = PBXGroup;
+			children = (
+				D22708581DE7D24C00841CB3 /* RYLocalizer */,
+				D227086D1DE7D24D00841CB3 /* RYLocalizerTests */,
+				D22708781DE7D24D00841CB3 /* RYLocalizerUITests */,
+				D22708571DE7D24C00841CB3 /* Products */,
+				D268429A1DF2C56B00BF0293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D22708571DE7D24C00841CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22708561DE7D24C00841CB3 /* RYLocalizer.app */,
+				D227086A1DE7D24D00841CB3 /* RYLocalizerTests.xctest */,
+				D22708751DE7D24D00841CB3 /* RYLocalizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22708581DE7D24C00841CB3 /* RYLocalizer */ = {
+			isa = PBXGroup;
+			children = (
+				D22708591DE7D24C00841CB3 /* AppDelegate.swift */,
+				D22708881DE7D33900841CB3 /* Localizer */,
+				D22708971DE7EB5A00841CB3 /* ViewController */,
+				D22708601DE7D24D00841CB3 /* Assets.xcassets */,
+				D227085D1DE7D24D00841CB3 /* Main.storyboard */,
+				D22708621DE7D24D00841CB3 /* LaunchScreen.storyboard */,
+				D22708651DE7D24D00841CB3 /* Info.plist */,
+				D2EBD14F1DEB95FD00C3501C /* StringExtension.swift */,
+			);
+			path = RYLocalizer;
+			sourceTree = "<group>";
+		};
+		D227086D1DE7D24D00841CB3 /* RYLocalizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D227086E1DE7D24D00841CB3 /* RYLocalizerTests.swift */,
+				D22708701DE7D24D00841CB3 /* Info.plist */,
+			);
+			path = RYLocalizerTests;
+			sourceTree = "<group>";
+		};
+		D22708781DE7D24D00841CB3 /* RYLocalizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D22708791DE7D24D00841CB3 /* RYLocalizerUITests.swift */,
+				D227087B1DE7D24D00841CB3 /* Info.plist */,
+			);
+			path = RYLocalizerUITests;
+			sourceTree = "<group>";
+		};
+		D22708881DE7D33900841CB3 /* Localizer */ = {
+			isa = PBXGroup;
+			children = (
+				D22708891DE7D35500841CB3 /* RYLocalizer.swift */,
+				D227089A1DE7ED9600841CB3 /* Localizable.strings */,
+			);
+			name = Localizer;
+			sourceTree = "<group>";
+		};
+		D22708971DE7EB5A00841CB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D22708931DE7EAF400841CB3 /* RYMainViewController.swift */,
+				D227088D1DE7EA5700841CB3 /* RYExampleTableViewController.swift */,
+				D22708901DE7EAB000841CB3 /* RYSettingsTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		D268429A1DF2C56B00BF0293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D26842A01DF2CA4D00BF0293 /* OCMockito.framework */,
+				D268429E1DF2CA4700BF0293 /* OCHamcrest.framework */,
+				D268429B1DF2C56B00BF0293 /* OCMock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22708551DE7D24C00841CB3 /* RYLocalizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D227087E1DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizer" */;
+			buildPhases = (
+				D22708521DE7D24C00841CB3 /* Sources */,
+				D22708531DE7D24C00841CB3 /* Frameworks */,
+				D22708541DE7D24C00841CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RYLocalizer;
+			productName = RYLocalizer;
+			productReference = D22708561DE7D24C00841CB3 /* RYLocalizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D22708691DE7D24D00841CB3 /* RYLocalizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22708811DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizerTests" */;
+			buildPhases = (
+				D22708661DE7D24D00841CB3 /* Sources */,
+				D22708671DE7D24D00841CB3 /* Frameworks */,
+				D22708681DE7D24D00841CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D227086C1DE7D24D00841CB3 /* PBXTargetDependency */,
+			);
+			name = RYLocalizerTests;
+			productName = RYLocalizerTests;
+			productReference = D227086A1DE7D24D00841CB3 /* RYLocalizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D22708741DE7D24D00841CB3 /* RYLocalizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22708841DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizerUITests" */;
+			buildPhases = (
+				D22708711DE7D24D00841CB3 /* Sources */,
+				D22708721DE7D24D00841CB3 /* Frameworks */,
+				D22708731DE7D24D00841CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D22708771DE7D24D00841CB3 /* PBXTargetDependency */,
+			);
+			name = RYLocalizerUITests;
+			productName = RYLocalizerUITests;
+			productReference = D22708751DE7D24D00841CB3 /* RYLocalizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D227084E1DE7D24C00841CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RY;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yury Radchenko";
+				TargetAttributes = {
+					D22708551DE7D24C00841CB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29664JHSDY;
+						ProvisioningStyle = Automatic;
+					};
+					D22708691DE7D24D00841CB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29664JHSDY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D22708551DE7D24C00841CB3;
+					};
+					D22708741DE7D24D00841CB3 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 29664JHSDY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D22708551DE7D24C00841CB3;
+					};
+				};
+			};
+			buildConfigurationList = D22708511DE7D24C00841CB3 /* Build configuration list for PBXProject "RYLocalizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				de,
+				uk,
+				cs,
+			);
+			mainGroup = D227084D1DE7D24C00841CB3;
+			productRefGroup = D22708571DE7D24C00841CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22708551DE7D24C00841CB3 /* RYLocalizer */,
+				D22708691DE7D24D00841CB3 /* RYLocalizerTests */,
+				D22708741DE7D24D00841CB3 /* RYLocalizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22708541DE7D24C00841CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22708641DE7D24D00841CB3 /* LaunchScreen.storyboard in Resources */,
+				D22708981DE7ED9600841CB3 /* Localizable.strings in Resources */,
+				D22708611DE7D24D00841CB3 /* Assets.xcassets in Resources */,
+				D227085F1DE7D24D00841CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708681DE7D24D00841CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708731DE7D24D00841CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22708521DE7D24C00841CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227088A1DE7D35500841CB3 /* RYLocalizer.swift in Sources */,
+				D22708911DE7EAB000841CB3 /* RYSettingsTableViewController.swift in Sources */,
+				D2EBD1501DEB95FD00C3501C /* StringExtension.swift in Sources */,
+				D22708941DE7EAF400841CB3 /* RYMainViewController.swift in Sources */,
+				D227088E1DE7EA5700841CB3 /* RYExampleTableViewController.swift in Sources */,
+				D227085A1DE7D24C00841CB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708661DE7D24D00841CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227086F1DE7D24D00841CB3 /* RYLocalizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22708711DE7D24D00841CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227087A1DE7D24D00841CB3 /* RYLocalizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D227086C1DE7D24D00841CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22708551DE7D24C00841CB3 /* RYLocalizer */;
+			targetProxy = D227086B1DE7D24D00841CB3 /* PBXContainerItemProxy */;
+		};
+		D22708771DE7D24D00841CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D22708551DE7D24C00841CB3 /* RYLocalizer */;
+			targetProxy = D22708761DE7D24D00841CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D227085D1DE7D24D00841CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D227085E1DE7D24D00841CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22708621DE7D24D00841CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22708631DE7D24D00841CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D227089A1DE7ED9600841CB3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D227089B1DE7EDAF00841CB3 /* ru */,
+				D227089D1DE7EDBD00841CB3 /* en */,
+				D227089E1DE7EDDC00841CB3 /* de */,
+				D227089F1DE7EDE800841CB3 /* uk */,
+				D22708A11DE7FDDE00841CB3 /* cs */,
+			);
+			name = Localizable.strings;
+			path = Localizer;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D227087C1DE7D24D00841CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D227087D1DE7D24D00841CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D227087F1DE7D24D00841CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				INFOPLIST_FILE = RYLocalizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D22708801DE7D24D00841CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				INFOPLIST_FILE = RYLocalizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D22708821DE7D24D00841CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RYLocalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYLocalizer.app/RYLocalizer";
+			};
+			name = Debug;
+		};
+		D22708831DE7D24D00841CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RYLocalizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RYLocalizer.app/RYLocalizer";
+			};
+			name = Release;
+		};
+		D22708851DE7D24D00841CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				INFOPLIST_FILE = RYLocalizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RYLocalizer;
+			};
+			name = Debug;
+		};
+		D22708861DE7D24D00841CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29664JHSDY;
+				INFOPLIST_FILE = RYLocalizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ipadchenko.RYLocalizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RYLocalizer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22708511DE7D24C00841CB3 /* Build configuration list for PBXProject "RYLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D227087C1DE7D24D00841CB3 /* Debug */,
+				D227087D1DE7D24D00841CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D227087E1DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D227087F1DE7D24D00841CB3 /* Debug */,
+				D22708801DE7D24D00841CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22708811DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22708821DE7D24D00841CB3 /* Debug */,
+				D22708831DE7D24D00841CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22708841DE7D24D00841CB3 /* Build configuration list for PBXNativeTarget "RYLocalizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22708851DE7D24D00841CB3 /* Debug */,
+				D22708861DE7D24D00841CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D227084E1DE7D24C00841CB3 /* Project object */;
+}
